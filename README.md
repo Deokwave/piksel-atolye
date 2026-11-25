@@ -8,6 +8,15 @@ Deokwave'in GitHub sayfalarındaki piksel görselleri bu araçla çiziyoruz: ban
 node banner/build.mjs cikti
 ```
 
+## Çıktılar
+
+Komutu çalıştırınca verdiğin klasörün içinde şunlar oluşuyor:
+
+- `org/`: organizasyon sayfasının banner'ı, butonları, başlıkları, teknoloji kartları ve paneli, alt bilgisi
+- `personal/`: profil sayfasının banner'ı, başlıkları, butonları ve teknoloji paneli
+- `repos/`: her tanıtım deposunun başlık görseli
+- `org-avatar.ppm`: organizasyon avatarının 64x64 hali; PNG'ye çevirmek için `magick cikti/org-avatar.ppm -filter point -resize 800% avatar.png`
+
 ## Diğer piksel araçlarımız
 
 - [piksel-avatar](https://github.com/Deokwave/piksel-avatar): profil avatarını çizen Python betiği
